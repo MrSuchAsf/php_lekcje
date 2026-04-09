@@ -11,6 +11,7 @@
 
  <form action="p6.php" method="POST">
     <p><input type="number" name = "liczby"/></p>
+    <p><input type="number" name = "liczby1"/></p>
     <input type="submit" name="dane" value = "Wyslij">
  </form>
 
@@ -18,7 +19,8 @@
   if(isset($_POST["dane"]))
         {
         $liczby = $_POST["liczby"];
-        for($i = 0; $i <= $liczby; $i++)
+        $liczby1 = $_POST["liczby1"];
+        for($i = $liczby; $i <= $liczby1; $i++)
             {
             echo "$i ," ; 
             };
