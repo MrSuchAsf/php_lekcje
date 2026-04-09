@@ -11,6 +11,8 @@
     </style>
 </head>
 <body>
+    
+    <a href = "index.php"><button>Main</button></a>
  
     <?php
     $s1 = "Mercedes";

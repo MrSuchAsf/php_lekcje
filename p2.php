@@ -10,6 +10,7 @@
 marki samochodów (wypełnij je dowolnymi markami) wyświetla w postaci listy 
 wypunktowanej -->
 
+    <a href = "index.php"><button>Main</button></a>
 <?php
     $s1 = "Mercedes";
     $s2 = "Audi";

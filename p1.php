@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href = "index.php"><button>Main</button></a>
     <h1 style = "color: blue">Porównanie skryptu JS z PHP</h1>
 
     <?php
