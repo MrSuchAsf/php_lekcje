@@ -20,11 +20,11 @@
         {
         $liczby = $_POST["liczby"];
         $liczby1 = $_POST["liczby1"];
-        for($i = $liczby; $i <= $liczby1; $i++)
-            {
-            echo "$i ," ; 
+            for($i = $liczby; $i <= $liczby1; $i++)
+                {
+                echo "$i, " ; 
+                };
             };
-        };
  ?>
 </body>
 </html>
