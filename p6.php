@@ -9,6 +9,7 @@
 <!-- Napisz skrypt w którym na stronie wyświetlą się liczby po przecinku
  w zakresie podamyn przez użytkownika  poprzez formularz-->
 
+<a href = "index.php"><button>Main</button></a>
  <form action="p6.php" method="POST">
     <p><input type="number" name = "liczby"/></p>
     <p><input type="number" name = "liczby1"/></p>
